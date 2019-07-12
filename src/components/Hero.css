@@ -74,6 +74,10 @@
   height: auto;
 }
 
+.sunAndPuddlesTitle {
+  font-weight: 900;
+}
+
 @media (max-width: 425px) {
   .heroSection .heroContent .heroContentTitle {
     font-size: 3rem;

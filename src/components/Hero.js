@@ -26,7 +26,7 @@ class Hero extends Component {
             National and local <span className='magicalLineBlue'>forecasts</span><br />in the palm of your hand.
           </h1>
           <p className='heroContentCopy'>
-            Weather can be unpredictable. Keep up-to-date with the latest forecasts<br />with Sun and Puddles for your computer and mobile device.
+            Weather can be unpredictable. Keep up-to-date with the latest forecasts<br />with <span className='sunAndPuddlesTitle'>Sun and Puddles</span> for your computer and mobile device.
           </p>
           {/* <Button buttonLabel='Download Today' buttonStyle='hero' /> */}
           <button className='hero button' onClick={this.toggleModal}>Download Today</button>
