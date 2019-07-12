@@ -16,7 +16,7 @@ class Modal extends Component {
                     <form method="POST" action='/' name="emailresponse" data-netlify="true">
                       <input type="hidden" name="form-name" value="emailresponse" />
                       <input className="input" name='email' type="email" placeholder="email"/>
-                      <button className='button small' type='submit' name='button'>Submit</button>
+                      <button className='button small google-tag-button' type='submit' name='button'>Submit</button>
                     </form>
                     <button class='button medium' onClick={this.props.onClose}>Close</button>
                 </div>
